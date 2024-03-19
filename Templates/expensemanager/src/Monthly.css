@@ -1,0 +1,50 @@
+
+.Monthly{
+    display:flex;
+    justify-content:space-between;
+    margin:9px;
+    padding:4px;
+    width:81%;
+    height:50%;
+}
+
+.date{
+    color: aquamarine;
+    background-color: #8b8b8b1c;
+    font-size:25px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.Income{
+  margin-bottom:20px;
+  padding:20px;
+  background-color:rgba(67, 121, 116, 0.4);
+   border-radius: 7px;
+    border: 2px solid rgba(64, 224, 208);
+}
+
+.Expense{
+    margin:13px;
+    padding:23px;
+    background-color:rgba(67, 121, 116, 0.4);
+    border-radius:7px;
+    border: 2px solid rgba(64, 224, 208);
+}
+
+body{
+    background-color:black;
+}
+.title{
+    color:rgba(64, 224, 208);
+}
+
+
+#amount{
+    float:right;
+    color:white;
+}
+
+.title_amount{
+    color:rgb(200, 200, 200);
+    font-size:20px;
+}

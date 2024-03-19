@@ -1,0 +1,56 @@
+.record-form {
+    margin-inline: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form-field{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid darkcyan;
+    width: 25%;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}
+.option{
+    color: black;
+    background-color: transparent;
+}
+.record-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: auto;
+    font-size: 18px;
+}
+.remark{
+    text-align: center;
+    font-style: italic;
+    color: #ff3907;
+}
+.sum{
+    border-top: 2px rgba(64, 224, 208) solid;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.no-record{
+    text-align: center;
+}
+@media screen and (width<1000px) {
+    .record-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-field{
+        width: 80%;
+        margin-top: 25px;
+    }
+    .record-btn{
+        margin-top: 20px;
+    }
+}

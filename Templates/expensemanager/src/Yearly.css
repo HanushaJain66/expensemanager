@@ -1,0 +1,82 @@
+#yearly-box{
+    margin-inline: 15%;
+    margin-top: 2%;
+}
+#yearly-data-box{
+    display: flex;
+    justify-content: space-between;
+}
+#Yearly-records{
+    text-align: center;
+    color: white;
+    background-color: rgb(34, 92, 92);
+}
+#yearly-income {
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-size: larger;
+    padding: 20px;
+}
+
+#income-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.income-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgba(13, 211, 246, 0.36);
+    margin-bottom: 20px;
+    color: white;
+}
+.income-container-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.income-row {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #ccc;
+}
+
+.no-record {
+    text-align: center;
+}
+
+#yearly-income {
+    width: 50%;
+}
+.yearly-record-line{
+    min-width: 40%;
+}
+.record-list{
+    padding: 0;
+}
+#yearly-container{
+    display: flex;
+}
+@media screen and (width<1000px) {
+    #yearly-box{
+        margin: 5%;
+    }
+    #yearly-data-box{
+        flex-direction: column;
+        gap: 25px;
+    }
+    #yearly-income {
+        width: 90%;
+    }
+}

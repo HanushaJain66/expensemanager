@@ -1,0 +1,13 @@
+#expense-box{
+    width: 45%;
+}
+#expense-title{
+    font-size: 22px;
+    background-color: #202020;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+#ex-total{
+    float: right;
+    color: rgb(255, 65, 13);
+}

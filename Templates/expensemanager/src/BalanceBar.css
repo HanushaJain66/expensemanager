@@ -1,0 +1,37 @@
+#balance-box{
+    margin-inline: 20%;
+    padding-bottom: 2%;
+    background-color: #161616;
+}
+#accout-balance{
+    padding: 2%;
+    padding-inline: 5%;
+    font-size: 22px;
+    color: darkgray;
+}
+#balance-title{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+    font-style: italic;
+    background-color: #202020;
+    color: azure;
+}
+.account-balance{
+    float: right;
+}
+.account-row{
+    padding: 10px;
+}
+#total{
+    padding-top: 10px;
+    border-top: 2px #9e9e9e double;
+}
+@media screen and (width<1000px) {
+    #balance-box{
+        margin-inline: 5%;
+    }
+    #accout-balance{
+        font-size: 18px;
+    }
+}

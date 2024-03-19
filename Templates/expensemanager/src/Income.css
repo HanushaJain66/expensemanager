@@ -1,0 +1,16 @@
+#income-box{
+    width: 45%;
+}
+#income-title{
+    font-size: 22px;
+    background-color: #202020;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+#in-total{
+    float: right;
+    color: chartreuse;
+}
+@media screen and (width<1000) {
+    
+}

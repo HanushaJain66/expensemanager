@@ -1,0 +1,11 @@
+#monthly-box{
+    width: 90%;
+    margin-inline: 5%;
+}
+
+#amountex{
+    float:right;
+    color:rgb(255, 47, 0);
+}
+
+

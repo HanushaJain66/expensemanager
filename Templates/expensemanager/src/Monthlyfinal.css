@@ -1,0 +1,95 @@
+.main{
+    margin-top: 2%;
+    margin-inline: 15%;
+}
+.component{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 40%;
+    margin-bottom: 4%;
+}
+
+.component_name{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 40%;
+    margin-bottom: 4%;
+}
+
+.income{
+    font-size: 22px;
+    background-color: #202020;
+    padding: 1%;
+    margin-bottom: 4%;
+    width:100%;
+}
+
+.expense{
+    font-size: 22px;
+    background-color: #202020;
+    padding: 1%;
+    margin-bottom: 4%;
+    width:100%;
+}
+
+.ie{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+
+#selectmon{
+    border-bottom: 3px solid darkcyan;
+    background-color: transparent;
+    color:white;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    font-size:20px;
+    padding:12px;
+    margin:3px;
+    outline: none;
+}
+
+
+#selectmon option {
+    background-color: black; 
+    color: white; 
+}
+
+.month-select{
+    display:flex;
+    justify-content: center;
+}
+
+
+#incometot{
+    color:rgb(6, 255, 6);
+    float:right;
+}
+
+#expensetot{
+    color:red;
+    float:right;
+}
+@media screen and (width<1000px) {
+    .main{
+        margin: 5%;
+    }
+    .ie{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .component_name,.component{
+        width: 90%;
+        margin-inline: 5%;
+    }
+    .income-display{
+        width: 100%;
+
+    }
+}

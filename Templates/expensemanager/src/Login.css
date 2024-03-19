@@ -1,0 +1,138 @@
+.login-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  margin-inline: 25%;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0.15);
+}
+
+.heading {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-right {
+  height: 100%;
+  width: 50%;
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+}
+
+.input {
+  width: 70%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid darkorange;
+  color: white;
+}
+
+.container2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#password {
+  font-weight: bold;
+  font-size: larger;
+}
+
+#click {
+  color: darkorange;
+  margin-top: 2px;
+}
+
+.container3 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.button {
+  margin-right: 19px;
+  padding: 10px;
+  height: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: darkorange;
+}
+#button1:hover {
+  background-color: rgb(183, 104, 6);
+}
+#button2 {
+  background-color: rgb(106, 45, 2);
+}
+#button2:hover {
+  background-color: rgb(62, 26, 0);
+}
+
+.text {
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+.slider {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.slider-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
+  text-align: center;
+}
+.slider-content img{
+  width: 400px;
+}
+.slider-content h1{
+  font-weight: 200;
+  color: #a1a1a1;
+}
+#first{
+  display: block;
+  opacity: 1;
+}
+@media screen and (width<1000px) {
+  .login-box {
+    width: 90%;
+    margin-top: 15%;
+    margin-inline: 5%;
+    flex-direction: column;
+  }
+  .container-right {
+    margin: 0;
+    width: 81%;
+  }
+  /* .container-left {
+    display: none;
+  } */
+  .heading {
+    font-size: 25px;
+  }
+  .slider-content img{
+    width: 200px;
+  }
+  .slider-content h1{
+    font-size: 20px;
+  }
+}

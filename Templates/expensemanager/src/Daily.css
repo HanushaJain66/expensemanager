@@ -1,0 +1,23 @@
+#daily-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 15%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+@media screen and (width<1000px) {
+    #daily-box{
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 5%;
+        margin-bottom: 15%;
+    }
+    #expense-box{
+        min-width: 90%;
+        margin-bottom: 1%;
+    }
+    #income-box{    
+        min-width: 90%;
+        margin-bottom: 5%;
+    }
+}
